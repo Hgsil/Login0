@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="#d3d1d1"
+               >
+    <TextView
+        android:id="@+id/kongbaikuai"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@+id/kongbaikuai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="注册"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"
+
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="40dp"
+        android:background="#dfdfdf"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#dfdfdf"
+        android:text="昵称"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/names"
+        android:background="#ebebeb"
+        android:hint="电话号码"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+        <EditText
+            android:id="@+id/password"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/nothingIncreate"
+            android:background="#ebebeb"
+            android:hint="密码"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            />
+        <TextView
+            android:id="@+id/nothingIncreate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/username"/>
+        <TextView
+            android:id="@+id/createbutton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/password"
+            android:background="#dfdfdf"
+            android:text="注册"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            />
+</RelativeLayout>
+
+
+
+</RelativeLayout>
